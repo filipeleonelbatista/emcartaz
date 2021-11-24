@@ -130,7 +130,7 @@ const Modal = ({ data, isShow, handleClose }) => {
           {data.trailer && (
             <Styled.Title>
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href={`https://www.youtube.com/watch?v=${data.trailer}`}
               >
                 Assista o Trailer
